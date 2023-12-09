@@ -32,7 +32,7 @@ function module.apply_to_config(config)
   -- config.font = wezterm.font 'MesloLGM Nerd Font Mono'
   -- config.font = wezterm.font 'SauceCodePro NFM'
   config.font_size = 14
-  config.line_height = 1.1
+  config.line_height = 1.3
 end
 
 -- return our module table
