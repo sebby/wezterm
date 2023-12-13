@@ -1,5 +1,4 @@
 -- I am helpers.lua and I should live in ~/.config/wezterm/helpers.lua
-
 local wezterm = require 'wezterm'
 
 -- This is the module table that we will export
@@ -29,10 +28,11 @@ function module.apply_to_config(config)
   config.color_scheme = 'Gruvbox light, hard (base16)'
   config.color_scheme = 'Gruvbox Material (Gogh)'
   config.font = wezterm.font 'JetBrains Mono'
+  config.font = wezterm.font 'Fira Code'
   -- config.font = wezterm.font 'MesloLGM Nerd Font Mono'
   -- config.font = wezterm.font 'SauceCodePro NFM'
   config.font_size = 14
-  config.line_height = 1.3
+  --config.line_height = 1.2
 end
 
 -- return our module table
