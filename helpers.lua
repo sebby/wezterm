@@ -28,9 +28,22 @@ function module.apply_to_config(config)
   config.color_scheme = 'Gruvbox light, hard (base16)'
   config.color_scheme = 'Gruvbox Material (Gogh)'
   config.font = wezterm.font 'JetBrains Mono'
+
+
+ -- config.font = wezterm.font 'Fira Code'
+  -- You can specify some parameters to influence the font selection;
+  -- for example, this selects a Bold, Italic font variant.
+  -- config.font =
+  -- wezterm.font('JetBrains Mono', { weight = 'Bold', italic = true })
+
   -- config.font = wezterm.font 'Fira Code'
   -- config.font = wezterm.font 'MesloLGM Nerd Font Mono'
   -- config.font = wezterm.font 'SauceCodePro NFM'
+  -- config.font = wezterm.font_with_fallback {
+  -- 'Fira Code',
+  -- 'Ubuntu',
+  -- }
+
   config.font_size = 12
   -- config.line_height = 1.2
   config.tab_bar_at_bottom = true
