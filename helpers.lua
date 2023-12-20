@@ -20,7 +20,7 @@ function module.apply_to_config(config)
   private_helper()
 
   config.color_scheme = 'Catppuccin Latte'
-    config.color_scheme = 'Catppuccin Mocha'
+  config.color_scheme = 'Catppuccin Mocha'
 
     -- Voir cette page pour avoir le nom prècis des thémes.
     -- https://wezfurlong.org/wezterm/colorschemes/g/#gruvbox-dark-hard-base16
@@ -28,11 +28,12 @@ function module.apply_to_config(config)
   config.color_scheme = 'Gruvbox light, hard (base16)'
   config.color_scheme = 'Gruvbox Material (Gogh)'
   config.font = wezterm.font 'JetBrains Mono'
-  config.font = wezterm.font 'Fira Code'
+  -- config.font = wezterm.font 'Fira Code'
   -- config.font = wezterm.font 'MesloLGM Nerd Font Mono'
   -- config.font = wezterm.font 'SauceCodePro NFM'
-  config.font_size = 14
-  --config.line_height = 1.2
+  config.font_size = 12
+  -- config.line_height = 1.2
+  config.tab_bar_at_bottom = true
 end
 
 -- return our module table
