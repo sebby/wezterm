@@ -44,7 +44,7 @@ function module.apply_to_config(config)
   -- 'Ubuntu',
   -- }
 
-  config.font_size = 12
+  config.font_size = 14
   -- config.line_height = 1.2
   config.tab_bar_at_bottom = true
 end
